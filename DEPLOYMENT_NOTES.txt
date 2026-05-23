@@ -1,0 +1,25 @@
+Data Bakery by Hassan Absar — Powered by STT Solutions
+Deployment Notes
+
+Target URL:
+databakerybyhassanabsarsttsolutions.streamlit.app
+
+Branding posture:
+STT Solutions is the institutional engine of the app. The UI and PDFs visibly include the STT Solutions banner, the powered-by identity, and Hassan Absar's expert branding.
+
+Deployment model:
+1. Push repository to GitHub.
+2. Deploy using Streamlit Community Cloud.
+3. Set main file to streamlit_app.py.
+4. Set custom subdomain to databakerybyhassanabsarsttsolutions if available.
+
+Important:
+Streamlit Community Cloud is suitable for MVP, demos, and moderate classroom use. If generation becomes slow under classroom load, move to production hosting such as Cloud Run, Azure App Service, Render, Railway, DigitalOcean, or an STT-controlled VPS.
+
+Generated files:
+The app creates files temporarily, offers immediate ZIP download, and includes cleanup controls. Streamlit cannot guarantee a reliable browser-download-complete callback, so the app cleans files through explicit user cleanup and automatic stale temp cleanup.
+
+Current recipe limits:
+Rows: 500,000 to 550,000
+Columns: 5 to 25
+Outputs: CSV datasets and PDF documentation only
