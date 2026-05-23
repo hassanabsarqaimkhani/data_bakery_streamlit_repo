@@ -184,7 +184,7 @@ def inject_css():
         }
         .db-portrait {
             position: absolute;
-            right: 55px;
+            right: 50px;
             bottom: 105px;
             width: min(82%, 420px);
             height: 300px;
@@ -197,7 +197,7 @@ def inject_css():
         .db-media-caption {
             position: absolute;
             left: 18px;
-            bottom: 24px;
+            bottom: 0;
             max-width: 190px;
             background: rgba(5,5,8,0.82);
             border: 1px solid rgba(255,255,255,0.18);
