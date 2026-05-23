@@ -6,8 +6,8 @@ SHORT_NAME = "Data Bakery"
 TARGET_URL = "databakerybyhassanabsarsttsolutions.streamlit.app"
 
 ASSETS_DIR = Path(__file__).resolve().parent / "assets"
-HASSAN_PORTRAIT_PATH = ASSETS_DIR / "Hassan_Absar.png"
-HASSAN_AVATAR_PATH = ASSETS_DIR / "Hassan_Absar.png"
+HASSAN_PORTRAIT_PATH = ASSETS_DIR / "HassanAbsar.png"
+HASSAN_AVATAR_PATH = ASSETS_DIR / "HassanAbsar.png"
 STT_BANNER_PATH = ASSETS_DIR / "stt_solutions_banner.jpg"
 
 ROW_MIN = 500_000
