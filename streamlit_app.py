@@ -237,7 +237,7 @@ with generate_tab:
             st.session_state.dirt_report = dirt_report
             with open(zip_path, "rb") as f:
                 st.session_state.zip_bytes = f.read()
-            status.success("Your STT Solutions branded Data Bakery package is ready. Download immediately, then delete temporary server files.")
+            status.success("Your Data Bakery package is ready. Download immediately, then delete temporary server files.")
         except Exception as exc:
             st.error(f"Generation failed: {exc}")
 
