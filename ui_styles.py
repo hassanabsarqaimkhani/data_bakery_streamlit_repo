@@ -184,7 +184,7 @@ def inject_css():
         }
         .db-portrait {
             position: absolute;
-            right: 60px;
+            right: 55px;
             bottom: 105px;
             width: min(82%, 420px);
             height: 300px;
